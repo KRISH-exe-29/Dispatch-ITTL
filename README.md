@@ -5,7 +5,7 @@
 <h1 align="center">INDOTECH Dispatch Management System</h1>
 
 <p align="center">
-  <strong>Enterprise-grade dispatch, packing, and logistics management platform for transformer manufacturing</strong>
+  <strong>Follows every Indo Tech transformer from work order to the factory gate, covering packing lists, loading lists, vehicle entry and exit, and dispatch slips, with five user roles.</strong>
 </p>
 
 <p align="center">
@@ -14,6 +14,23 @@
   <img src="https://img.shields.io/badge/Supabase-Backend-3FCF8E?logo=supabase&logoColor=white" alt="Supabase" />
   <img src="https://img.shields.io/badge/License-Private-red" alt="Private" />
 </p>
+
+- Create and approve work orders with MVA and voltage specs, then follow each one on a live, shift-wise dashboard.
+- Build packing lists item by item, and copy items between work orders.
+- Loading lists fill in from packed items, ready to assign to a container or truck.
+- Security staff log vehicle entry and exit at the gate, with details filled in from the work order.
+- Print dispatch slips and export reports to CSV, filtered by date and status.
+
+## Quick start
+
+```bash
+git clone https://github.com/KRISH-exe-29/Dispatch-ITTL.git && cd Dispatch-ITTL
+npm install
+cp .env.example .env    # add your Supabase URL and anon key
+npm run dev             # http://localhost:5173
+```
+
+You need a Supabase project with the tables listed under **Database Setup** below.
 
 ---
 
@@ -117,23 +134,7 @@ Built with **React 19 + Vite** on the frontend and **Supabase** (PostgreSQL + Au
 
 ### Installation
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/KRISH-exe-29/Dispatch-ITTL.git
-cd Dispatch-ITTL
-
-# 2. Install dependencies
-npm install
-
-# 3. Set up environment variables
-cp .env.example .env
-# Edit .env with your Supabase project URL and anon key
-
-# 4. Start the development server
-npm run dev
-```
-
-The app will be available at `http://localhost:5173/`
+See [Quick start](#quick-start) above.
 
 ### Environment Variables
 

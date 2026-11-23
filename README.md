@@ -21,6 +21,18 @@
 - Security staff log vehicle entry and exit at the gate, with details filled in from the work order.
 - Print dispatch slips and export reports to CSV, filtered by date and status.
 
+## See it in 30 seconds
+
+<a href="docs/film/dispatch.mp4">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/film/dispatch-dark.gif">
+    <source media="(prefers-color-scheme: light)" srcset="docs/film/dispatch-light.gif">
+    <img src="docs/film/dispatch-dark.gif" width="100%" alt="Animated film styled as an airport departures board: work orders, packing lists, loading lists and gate passes flip into place, then 128 tests">
+  </picture>
+</a>
+
+<p align="center"><sub>Dispatch Management in 30 seconds. The preview plays silently with subtitles; <a href="docs/film/dispatch.mp4">open the MP4</a> for the narrated version with music.</sub></p>
+
 ## Quick start
 
 ```bash
